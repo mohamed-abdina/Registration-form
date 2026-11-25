@@ -21,7 +21,24 @@ form {
   min-width: 300px;
 }
 
+fieldset {
+  border: none;
+  border-bottom: 3px solid #3b3b4f;
+  padding: 2rem 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
 label {
   display: block;
   margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 10px 0 0;
 }
